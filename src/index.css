@@ -1,0 +1,10 @@
+/* @import 'locomotive-scroll/src/locomotive-scroll.css'; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Your other styles go here */
+
+*{
+    
+}

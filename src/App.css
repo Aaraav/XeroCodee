@@ -1,0 +1,499 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+ margin:0;
+ padding: 0;
+  text-align: center;
+
+  
+}
+* ::selection{
+  color: white;
+  background-color: #365486}
+
+
+body {
+  overflow-x: hidden; 
+  overflow-y: auto;   }
+
+
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+#shadowdiv{
+box-shadow: 20px 20px 100px 30px white;
+}
+
+#cardchoose #cards:nth-child(2){
+  background: linear-gradient(232.88deg, #62AE6E 28.46%, #EDE14F 162.02%);
+  margin:0 10px 0 10px;
+
+}
+#cardchoose #cards:nth-child(4){
+  background: linear-gradient(225.84deg, #3171DE 25.37%, #4AC0F2 135.72%);
+  margin:0 10px 0 10px;
+}
+
+#secondlast{
+  background: linear-gradient(211.18deg, #3171DE 18.85%, #4AC0F2 105.91%);
+
+}
+
+#hexagon{
+  
+    width: 600px;
+    height: 400px;
+    background-color: #3498db; 
+    margin-left: 26%;
+    margin-top: 3%;
+    
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); 
+    border-radius: 30px;
+  
+
+}
+
+#seconddiv #cards:hover{
+  transform:scale(1.2);
+  transition: ease-in-out 0.8s;
+}
+#employee img:hover{
+  transform:scale(1.2);
+  transition: ease-in-out 0.8s;
+}
+
+
+@media (max-width:1000px) {
+
+  *{
+    width: 100vw;
+  }
+ 
+ #page0{
+  display: none;
+  width: 100vw;
+  height: 100vh;
+ }
+
+  #navbar{
+    width: 100vw;
+    justify-content:flex-start;
+    align-items: start;
+
+   
+  }
+  #lastdiv-navbar{
+    display: none;
+  }
+  #navbar ul{
+    width: 100px;
+    height: min-content;
+    justify-content: flex-start;
+    flex-direction: column;
+   background-color: transparent;
+    margin-left: 52%;
+    position: absolute;
+  justify-content:start;
+    z-index: 1000000;
+    background-color:#3171DE;
+    width: 40%;
+    height: fit-content;
+    margin-top: 0px;
+    border-radius: 10px;
+    margin-left: 40%;
+
+    
+  
+  }
+  #navbar ul li{
+    font-size: 20px;
+
+    
+    background-color: #3171DE;
+    color: white;
+    align-self: center;
+    
+    
+    width: 80%;
+    height: max-content;
+   
+    
+  }
+  #navbar img:nth-child(2){
+    display: none;
+  }
+  #navbar button{
+    display: none;
+    
+  }
+#navbar #menu{
+    display: block;
+    margin-left: 55%;
+    margin-top: 4%;
+    z-index: 10000000000;
+    width: 40px;
+    
+  }
+  #Home-main{
+    width: 100vw;
+    height: 50vh;
+ 
+   
+   }
+   #shadowdiv{
+     box-shadow: 0 0 0 0;
+   }
+ 
+   #Home-main img{
+     
+       width: 140vw;
+       height: 42vh;
+       object-fit: cover;
+       background-position: center;
+     position: relative;
+      margin: 0px;
+      background-color: black;
+      
+      
+   }
+ 
+   #Home-main div{
+     background: black;
+     opacity: 0.7;
+     width: 100vw;
+     height: 43vh;
+     
+     position: absolute;
+    z-index: 1000;
+     top: 11.2vh;
+     left: 0vh;
+     margin: 0px;
+ 
+   }
+   #Home-main div h2{
+   
+     color: white;
+     font-weight: bold;
+     font-size: 28px;
+     
+   }
+  /*Tech.tsx */
+   #Techdiv h1{
+    
+      font-size: 20px;
+      text-align: center;
+    
+   
+   }
+   
+   #ptag{
+   
+     color: white;
+     font-weight: bold;
+ 
+   }
+ 
+   #carddiv{
+     display:flex;
+     height:80vh;
+     margin: 0px;
+     width: 100vw;
+     text-align: center;
+     flex-direction:column;
+     
+     
+   }
+  #cards{
+     margin-right:20px;
+   
+    width: 100%;
+    
+   
+ 
+   
+   }
+    #cards img{
+     width: 35px;
+   }
+    #cards h2{
+     font-size: 20px;
+     text-wrap: nowrap;
+   }
+   #cards p{
+     white-space: normal;
+     margin-right: 20px;
+     position: absolute;
+     overflow-wrap: break-word;
+     text-wrap:wrap;
+     overflow: hidden;
+     width:80%;
+     
+   }
+ 
+   #Techtext{
+     font-size: 20px;
+   }
+ 
+   
+   #seconddiv {
+     flex-wrap: nowrap;
+     
+     width: max-content;
+     overflow-x: scroll;
+   }
+   #seconddiv #cards{
+     width: 80vw;
+     padding: 30px;
+
+   
+   }
+   #seconddiv #cards h2{
+    font-size: 19px;
+   }
+   #seconddiv #cards p{
+    width:13%;
+   }
+ 
+ #companydiv{
+   height: 40vh;
+   margin-top: 80%;
+   width: 100vw;
+ }
+ #companydiv h1{
+   font-size: 20px;
+ }
+ #companydiv p{
+  font-size: 10px;
+ }
+ #companydiv #image{
+   width: 10%;
+ }
+ #companydiv button{
+   font-size: 10px;
+   width: 30%;
+ }
+ #techgiants{
+  
+  display: flex;
+  flex-wrap: wrap;
+  
+ }
+ #Rating{
+  height: min-content;
+ }
+
+ 
+ 
+ 
+ #boxdiv{
+   position: absolute;
+   margin-top: 50%;
+   height: 50vh;
+   margin-left: 0px;
+ }
+ #boxdiv p{
+  text-align: center;
+ }
+#imagediv{
+  height: 50vh;
+  position: relative;
+  width: 120vw;
+  
+  background-color: white;
+  
+}
+ #imagediv img:nth-child(1){
+  width: 100px;
+  
+ }
+ #imagediv img:nth-child(2){
+  width: 200px;
+  margin-top: 27%;
+  position: absolute;
+ }
+ #imagediv img:nth-child(3){
+  width: 250px;
+ }
+
+ #Ratingdiv{
+  flex: none;
+  flex-direction: column;
+  width: 100%;
+  overflow: hidden;
+ }
+
+ #Ratingdiv h1{
+   font-size: 25px;
+  text-align: center;
+  margin-top: 30%;
+  margin-right: 100px;
+   
+ 
+ }
+ #Ratingdiv p{
+   font-size: 10px;
+ }
+ 
+ #Rating-Cardsdiv {
+ margin-top: 20%;
+   width: max-content;
+ 
+ }
+ #Ratingdiv-cards{
+ width: 60vw;
+ height: 30vh;
+ }
+ 
+ #Ratingdiv-cards h1{
+   font-size: 10px;
+   text-wrap: nowrap;
+   overflow-wrap: break-word;
+   width: 10%;
+   
+ }
+ #Ratingdiv-cards p{
+   font-size: 10px;
+   overflow-wrap: break-word;
+   text-align: center;
+   margin-left: 10%;
+   width: 80%;
+ }
+ #Ratingdiv-cards hr{
+  width: 95%;
+  margin-left: 3%;
+ }
+ #btn{
+   margin-top: 50%;
+   width: 10%;
+ }
+
+ #choose{
+  width: 100vw;
+  height: 75vh;
+  margin-top: 0px;
+  padding-left: 0px;
+
+  overflow: hidden;
+ 
+ }
+ #choose  h1{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+#choose #cards{
+  width: 60vw;
+  height: 30vh;
+  
+}
+#choose #cards h2{
+font-size: 12px;
+margin-top: 7%;
+margin-right: 10px;
+margin-left: 0px;
+font-weight: 900;
+}
+#choose #cards p{
+  width: 50%;
+  font-size: 13px;
+  margin-top: 10%;
+}
+
+#choose #btnnew{
+  margin-top: 0%;
+  position: absolute;
+  width: 10%;
+}
+ #employee {
+  width: 80vw;
+  margin-left: 4%;
+  flex-wrap: wrap;
+  
+}
+#employee img{
+  width: 60%;
+  margin-left: 0px;
+}
+#employee img:nth-child(5){
+  margin-left: 20%;
+}
+#choosebtn{
+  width: 60%;
+  margin-bottom: 10%;
+}
+
+#secondlast{
+  height: 50vh;
+  width: 90vw;
+  margin-left: 5vw;
+  border-radius: 10%;
+}
+
+#secondlastdiv h1{
+  font-size: 18px;
+  text-align: center;
+  
+}
+#secondlastdiv button{
+  width: 60%;
+}
+
+#secondlastdiv img{
+  width: 80vw;
+  margin-left: 0px;
+  height: 30%;
+  margin-top: 20%;
+  margin-left: 3%;
+
+}
+
+#footer{
+ 
+  margin-top: 35%;
+  width: 100vw;
+  flex: none;
+}
+
+#footer table{
+  margin-left: 10px;
+  
+}
+#footer #form{
+  display: block;
+  position: absolute;
+  width: 200px;
+  height: 200px;
+  margin-top: 40%;
+  margin-left: 35%;
+}
+#form p{
+  width: 70%;
+}
+#footer #form img{
+  margin-left: 50%;
+}
+
+
+.lastfooter{
+  margin-top: 50%;
+ 
+  
+}
+.lastfooter div{
+  margin-bottom: 0px;
+}
+
+
+
+
+
+  
+}
+
